@@ -1,0 +1,29 @@
+
+.formulaire {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    width: 220px;
+    position: absolute;
+    top: 30px;
+    background-color: white;
+}
+  
+.formulaire > li:not(:first-child) {
+    border-top: 1px solid black;
+}
+  
+.formulaire > li {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+  
+.formulaire > li:hover {
+    background-color: rgb(97, 92, 92);
+}
+  
+.countryLabel {
+    display: inline-block;
+    margin-right: 10px;
+}

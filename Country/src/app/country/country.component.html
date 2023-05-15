@@ -1,0 +1,12 @@
+<div>
+    <label class="pays" for="country">Pays</label>
+    <input id="country" type="text" #input (blur)="onBlur()" (focus)="onFocus()" />
+    <ul class="formulaire" *ngIf="lesPays.length > 0">
+      <li
+        *ngFor="let country of lesPays"
+        (click)="selectCountry($event)"
+      >
+        {{ country.libelle }}
+      </li>
+    </ul>
+</div>
