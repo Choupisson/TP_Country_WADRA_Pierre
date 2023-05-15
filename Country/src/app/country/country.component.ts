@@ -22,7 +22,6 @@ export class CountryComponent implements AfterViewInit, OnDestroy {
   countries: Array<Country> = [
     { code: 'FR', libelle: 'France' },
     { code: 'EN', libelle: 'English' },
-    { code: 'AL', libelle: 'Albania' },
     { code: 'AU', libelle: 'Australia' },
     { code: 'NC', libelle: 'New Caledonia' },
     { code: 'CU', libelle: 'Cuba' },
